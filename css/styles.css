@@ -6,7 +6,7 @@
     */
 
 :root {
-  --link-and-primarybutton-color: #357b70;
+  --link-and-primarybutton-color: #112FD2;
   --visited-color-link: #1b17f3;
   --active-color-link: #489c79;
   --standard-color: #2b2b2b;
@@ -122,6 +122,11 @@ button:hover, button:focus {
 .page-header__item {
     flex: 0 1 200px;
     width: 50%;
+    margin-bottom: -100px;
+    }
+
+.main-navigation {
+    margin-top: 18px;
     }
 
 .page-header__item:last-child {
@@ -208,17 +213,17 @@ div {
 }
     }
 
+/*
 button,
-.button {
-/* your styling goes here */  
-    }
+.button {your styling goes here}
+*/   
 
+/*
 button:hover,
 button:focus,
 .button:hover,
-.button:focus {
-/* your styling goes here */  
-    }   
+.button:focus {your styling goes here}  
+*/
 
 .button, button {
 /* overwrites browser defaults and resets the border */
