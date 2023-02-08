@@ -123,7 +123,11 @@
         -webkit-box-flex: 0;
             -ms-flex: 0 1 200px;
                 flex: 0 1 200px;
-        width: 50%;
+        width: 40%;
+        }
+
+    .main-navigation {
+        margin-top: 18px;
         }
     
     .page-header__item:last-child {
@@ -216,17 +220,17 @@
     }
         }
     
+    /*
     button,
-    .button {
-    /* your styling goes here */  
-        }
-    
+    .button {your styling goes here}
+    */   
+
+    /*
     button:hover,
     button:focus,
     .button:hover,
-    .button:focus {
-    /* your styling goes here */  
-        }   
+    .button:focus {your styling goes here}  
+    */
     
     .button {
     /* overwrites browser defaults and resets the border */
@@ -235,7 +239,7 @@
     /* takes the font from the outer container */
     font-family: inherit;
     /* styles the button */
-    background-color: #357b70;
+    background-color: #112FD2;
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -257,7 +261,7 @@
     /* takes the font from the outer container */
     font-family: inherit;
     /* styles the button */
-    background-color: #357b70;
+    background-color: #112FD2;
     color: white;
     text-decoration: none;
     padding: 10px;
