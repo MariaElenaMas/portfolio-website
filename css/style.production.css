@@ -81,8 +81,8 @@ button:focus {
 }
 
 .button__secondary {
-    background-color: #1df4fc;
-    color: #2b2b2b;
+    background-color: #f50de9;
+    color: #ffffff;
 }
 
 .navigation-list__item--active {
@@ -179,27 +179,6 @@ button:focus {
     margin: 0;
 }
 
-
-
-/* Elements remained out / To not insert (Ex.1.6)
-    .header__title {
-        -No spacing to top and bottom and auto-spacing to left and right, which centers the container horizontally-
-      margin: 0 auto;
-        }
-    
-    .grid__item:last-child {
-      grid-column: 3 / 3;
-      grid-row: 1 / 3;
-        }
-    
-    div {
-      padding: 10px; -Adds a 10px inner spacing to all sides-
-      margin: 10px; -Adds a 10px outer spacing to all sides-
-      border: 1px solid black; -Attributes describe: thickness, type, color-
-      text-align: left;
-        } 
-    */
-
 @media all and (max-width: 500px) {
     .grid {
         -ms-grid-columns: 1fr;
@@ -228,18 +207,6 @@ button:focus {
         font-size: 22px;
     }
 }
-
-/*
-    button,
-    .button {your styling goes here}
-    */
-
-/*
-    button:hover,
-    button:focus,
-    .button:hover,
-    .button:focus {your styling goes here}  
-    */
 
 .button {
     /* overwrites browser defaults and resets the border */
@@ -395,4 +362,19 @@ button:focus,
 .profile p {
     padding-top: 2%;
     margin-right: 200px;
+}
+
+th {
+    text-align: left;
+    line-height: 40px;
+    color: #1b17f3;
+}
+
+td {
+    text-align: left;
+
+}
+
+a.button {
+    margin-top: 20px;
 }
