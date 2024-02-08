@@ -154,7 +154,8 @@ button:focus {
 /* start grid fallback */
 .grid__item {
     display: inline-block;
-    width: 35%;
+    width: 5%;
+    height: 102%;
     background-color: rgb(243, 168, 237);
 }
 
@@ -377,4 +378,9 @@ td {
 
 a.button {
     margin-top: 20px;
+}
+
+.imgcard {
+    align-items: center;
+
 }
