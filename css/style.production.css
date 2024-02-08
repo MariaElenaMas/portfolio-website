@@ -37,12 +37,12 @@ h3 {
 }
 
 a {
-    color: #357b70;
+    color: #1b17f3;
 }
 
 a:visited {
     /* visited link */
-    color: #1b17f3;
+    color: #6b69e6;
 }
 
 a:hover,
@@ -53,7 +53,7 @@ a:focus {
 
 a:active {
     /* selected link */
-    color: #489c79;
+    color: #61afc7;
 }
 
 button {
