@@ -150,15 +150,6 @@ button:focus {
     margin-left: 15px;
 }
 
-
-/* start grid fallback */
-.grid__item {
-    display: inline-block;
-    width: 5%;
-    height: 102%;
-    background-color: rgb(243, 168, 237);
-}
-
 /* end grid fallback */
 
 @supports (display: grid) {
@@ -175,9 +166,26 @@ button:focus {
 
 .grid__item {
     background-color: lightgrey;
-    width: auto;
+    width: 590px;
     min-height: auto;
     margin: 0;
+    padding: 10px;
+    background-color: rgb(236, 213, 235);
+}
+
+.grid__item img {
+    width: fit-content;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.grid__item p {
+    width: 550px;
+    min-height: auto;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(236, 213, 235);
 }
 
 @media all and (max-width: 500px) {
@@ -373,14 +381,12 @@ th {
 
 td {
     text-align: left;
-
 }
 
 a.button {
     margin-top: 20px;
 }
 
-.imgcard {
+img {
     align-items: center;
-
 }
